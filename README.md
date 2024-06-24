@@ -5,6 +5,12 @@ The Themosis framework is a tool aimed to WordPress developers of any levels. Bu
 
 Themosis framework is a tool to help you develop websites and web applications faster using [WordPress](https://wordpress.org/). Using an elegant and simple code syntax, Themosis framework helps you structure and organize your code and allows you to better manage and scale your WordPress websites and applications.
 
+Installation
+----------------
+```
+git clone -b db git@github.com:digital-brew/themosis-theme.git themosis
+```
+
 Development team
 ----------------
 The framework was created by [Julien Lambé](http://www.themosis.com/), who continues to lead the development.
