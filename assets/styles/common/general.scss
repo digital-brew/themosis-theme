@@ -1,0 +1,26 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+.container-fluid {
+  @apply min-w-full;
+  @apply px-2;
+
+  @screen md {
+    @apply px-6;
+  }
+
+  @screen lg {
+    @apply px-12;
+  }
+
+  @screen xl {
+    @apply px-16;
+  }
+
+  @screen 2xl {
+    @apply px-20;
+  }
+}

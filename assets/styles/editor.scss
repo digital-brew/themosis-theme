@@ -1,0 +1,15 @@
+.is-root-container.block-editor-block-list__layout {
+  .acf-block-preview {
+    @import 'editor/example';
+
+    [data-handle="mask"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(144, 144, 144, 0.72);
+    }
+  }
+}
